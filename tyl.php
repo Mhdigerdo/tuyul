@@ -64,7 +64,7 @@ function call($addr) {
     $bal = $bal[2][0];
     $ava = $ava[2][1];
     //echo $body;
-    $res['info'] = "Wallet: $addr".PHP_EOL."$bal".PHP_EOL."$ava";
+    $res['info'] = "Wallet: $addr".PHP_EOL."$bal".PHP_EOL."$ava";bc1qeeen2s2xna28gp4flu75d490zj8kz6exmns365
     if(!preg_match("/Error/", $body)){
         $res['status'] = true;
         $res['message'] = $claim;
@@ -79,7 +79,7 @@ function call($addr) {
 }
 
 $CY="\e[36m"; $GR="\e[2;32m"; $OG="\e[92m"; $WH="\e[37m"; $RD="\e[31m"; $YL="\e[33m"; $BF="\e[34m"; $DF="\e[39m"; $OR="\e[33m"; $PP="\e[35m"; $B="\e[1m"; $CC="\e[0m";
-echo "Input Your BTC Address: ";
+echo "Input Your BTC Address: ";bc1qeeen2s2xna28gp4flu75d490zj8kz6exmns365
 $btc = trim(fgets(STDIN));
 //if ($cookies == false) exit($time . "No such file!");
 for($i=0; $i<100; $i++) {
